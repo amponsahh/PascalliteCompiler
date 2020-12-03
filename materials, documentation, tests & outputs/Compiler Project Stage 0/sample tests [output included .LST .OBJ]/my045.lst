@@ -1,0 +1,10 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 22:28:38 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no045;
+    2|  var
+    3|    b, var,
+Error: Line 3: non-keyword identifier expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

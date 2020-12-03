@@ -1,0 +1,6 @@
+program stage1no108;
+  const w=3;x=true;
+  var   a,b,c,d,e:integer;
+  begin
+    d := a+x;   {can't add boolean}
+  end.

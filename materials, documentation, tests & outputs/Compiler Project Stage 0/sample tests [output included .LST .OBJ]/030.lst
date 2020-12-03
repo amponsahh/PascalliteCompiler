@@ -1,0 +1,16 @@
+STAGE0:  YOUR NAME(S)       Mon Oct 15 09:33:49 2018
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no030;
+    2|		 { extra whitespace after "end." is OK }
+    3|    const yes = true; no = false;
+    4|          small = 0; smalleryet ={} -1;
+    5|          big = 1; bigger_yet = 2;
+    6|        var   some : integer;
+    7|    begin   end.
+    8|
+    9|
+   10|
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

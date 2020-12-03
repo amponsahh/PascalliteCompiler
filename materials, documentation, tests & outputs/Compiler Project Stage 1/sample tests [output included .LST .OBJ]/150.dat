@@ -1,0 +1,14 @@
+program stage1no150;
+const
+  a = true;
+  b = false;
+  c = not false;
+  d = not true;
+  e = 5;
+  f = +5;
+  g = -5;
+  h = g;
+  i = -g;
+  j = +g;
+begin
+end.

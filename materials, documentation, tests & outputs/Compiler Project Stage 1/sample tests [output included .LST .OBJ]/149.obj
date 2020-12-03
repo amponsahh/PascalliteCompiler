@@ -1,0 +1,29 @@
+STRT  NOP          stage1no149 - Your Names(s)
+      RDI I0       read(a)
+      RDI I1       read(b)
+      RDI I2       read(c)
+      RDI I3       read(d)
+      RDI I4       read(e)
+      RDI I5       read(f)
+      LDA I0       
+      IAD I1       a + b
+      STA T0       deassign AReg
+      LDA I2       
+      IAD I3       c + d
+      STA T1       deassign AReg
+      LDA I4       
+      IAD I5       e + f
+      IAD T1       T1 + T2
+      IAD T0       T0 + T1
+      STA I0       a := T0
+      PRI I0       write(a)
+      HLT          
+I0    BSS 0001     a
+I1    BSS 0001     b
+I2    BSS 0001     c
+I3    BSS 0001     d
+I4    BSS 0001     e
+I5    BSS 0001     f
+T0    BSS 0001     T0
+T1    BSS 0001     T1
+      END STRT     

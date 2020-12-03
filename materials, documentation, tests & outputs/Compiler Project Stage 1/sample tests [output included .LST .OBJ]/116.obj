@@ -1,0 +1,35 @@
+STRT  NOP          stage1no116 - Your Names(s)
+      LDA B0       
+      STA B3       b := yes
+      LDA B0       
+      IMU B0       yes and yes
+      STA T0       deassign AReg
+      LDA B1       
+      IAD B1       no or no
+      AZJ L0  +1   
+L0    LDA TRUE     
+      IMU T0       T0 and T1
+      STA B7       d := T0
+      LDA B3       
+      AZJ L1       not b
+      LDA FALS     
+      UNJ L1  +1   
+L1    LDA TRUE     
+      IMU B0       yes and T0
+      STA B5       w := T0
+      PRI B7       write(d)
+      PRI B5       write(w)
+      HLT          
+B0    DEC 0001     yes
+B1    DEC 0000     no
+B2    BSS 0001     a
+B3    BSS 0001     b
+B4    BSS 0001     c
+B5    BSS 0001     w
+B6    BSS 0001     z
+B7    BSS 0001     d
+B8    BSS 0001     e
+T0    BSS 0001     T0
+TRUE  DEC 0001     TRUE
+FALS  DEC 0000     FALSE
+      END STRT     

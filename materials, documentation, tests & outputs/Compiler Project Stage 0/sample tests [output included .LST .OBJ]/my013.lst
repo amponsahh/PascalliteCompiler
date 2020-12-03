@@ -1,0 +1,12 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 20:52:31 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no013;
+    2|    {referencing an undefined constant}
+    3|
+    4|   const car = 2;
+    5|         s = b; 
+Error: Line 5: reference to undefined constant
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

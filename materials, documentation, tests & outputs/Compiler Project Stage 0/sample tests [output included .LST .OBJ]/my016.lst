@@ -1,0 +1,9 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 20:59:52 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no016;
+    2|      { { tests embedded comments should be illegal } }
+Error: Line 2: '}' cannot begin token
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

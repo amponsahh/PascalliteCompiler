@@ -1,0 +1,30 @@
+STRT  NOP          stage1no146 - Your Names(s)
+      LDA I4       
+      IAD I5       3 + 34
+      IMU I0       five * T0
+      STA I1       a := T0
+      LDA I6       
+      IDV I1       -5 mod a
+      STQ T0       store remainder in memory
+      LDA T0       load remainder from memory
+      IAD I1       a + T0
+      STA I2       b := T0
+      IAD I1       a + b
+      STA T0       deassign AReg
+      LDA I2       
+      ISB I1       b - a
+      IMU T0       T0 * T1
+      STA I3       c := T0
+      PRI I1       write(a)
+      PRI I2       write(b)
+      PRI I3       write(c)
+      HLT          
+I0    DEC 0005     five
+I1    BSS 0001     a
+I2    BSS 0001     b
+I3    BSS 0001     c
+I4    DEC 0003     3
+I5    DEC 0034     34
+T0    BSS 0001     T0
+I6    DEC -005     -5
+      END STRT     

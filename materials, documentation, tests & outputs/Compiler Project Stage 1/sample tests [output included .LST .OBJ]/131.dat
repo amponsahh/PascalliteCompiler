@@ -1,0 +1,8 @@
+program stage1no131;
+const
+  a = true;
+  b = a;
+  c = not a;
+begin
+  write(a,b,c);
+end.

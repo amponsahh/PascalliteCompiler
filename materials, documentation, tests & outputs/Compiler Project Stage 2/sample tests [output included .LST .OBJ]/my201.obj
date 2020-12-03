@@ -1,0 +1,29 @@
+STRT  NOP          stage2no201 - Amponsah Nana, McRae Angela
+      RDI I1       read(b)
+      RDI I2       read(c)
+      RDI I3       read(d)
+      RDI I4       read(e)
+      LDA I1       
+      IAD I2       b + c
+      STA T0       deassign AReg
+      LDA I2       
+      IAD I3       c + d
+      STA T1       deassign AReg
+      LDA I3       
+      IAD I4       d + e
+      IAD T1       T1 + T2
+      IAD T0       T0 + T1
+      STA I0       a := T0
+      IAD I2       a + c
+      STA I1       b := T0
+      PRI I0       write(a)
+      PRI I1       write(b)
+      HLT          
+I0    BSS 0001     a
+I1    BSS 0001     b
+I2    BSS 0001     c
+I3    BSS 0001     d
+I4    BSS 0001     e
+T0    BSS 0001     T0
+T1    BSS 0001     T1
+      END STRT     

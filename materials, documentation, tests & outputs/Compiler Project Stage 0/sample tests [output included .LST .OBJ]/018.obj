@@ -1,0 +1,34 @@
+STAGE0:  YOUR NAME(S)       Mon Oct 15 09:33:49 2018
+
+Symbol Table
+
+stage0no018      P0    PROG_NAME  CONSTANT      stage0no018   NO  0
+zero             I0      INTEGER  CONSTANT                0  YES  1
+five             I1      INTEGER  CONSTANT                5  YES  1
+aaaaaaaaaaaaaaa  I2      INTEGER  VARIABLE                   YES  1
+bbbbbbbbbbbbbbb  I3      INTEGER  VARIABLE                   YES  1
+ccccccccccccccc  I4      INTEGER  VARIABLE                   YES  1
+ddddddddddddddd  I5      INTEGER  VARIABLE                   YES  1
+eeeeeeeeeeeeeee  I6      INTEGER  VARIABLE                   YES  1
+fffffffffffffff  I7      INTEGER  VARIABLE                   YES  1
+ggggggggggggggg  I8      INTEGER  VARIABLE                   YES  1
+hhhhhhhhhhhhhhh  I9      INTEGER  VARIABLE                   YES  1
+iiiiiiiiiiiiiii  I10     INTEGER  VARIABLE                   YES  1
+jjjjjjjjjjjjjjj  I11     INTEGER  VARIABLE                   YES  1
+kkkkkkkkkkkkkkk  I12     INTEGER  VARIABLE                   YES  1
+lllllllllllllll  I13     INTEGER  VARIABLE                   YES  1
+mmmmmmmmmmmmmmm  I14     INTEGER  VARIABLE                   YES  1
+nnnnnnnnnnnnnnn  I15     INTEGER  VARIABLE                   YES  1
+ooooooooooooooo  I16     INTEGER  VARIABLE                   YES  1
+ppppppppppppppp  I17     INTEGER  VARIABLE                   YES  1
+qqqqqqqqqqqqqqq  I18     INTEGER  VARIABLE                   YES  1
+rrrrrrrrrrrrrrr  I19     INTEGER  VARIABLE                   YES  1
+sssssssssssssss  I20     INTEGER  VARIABLE                   YES  1
+ttttttttttttttt  I21     INTEGER  VARIABLE                   YES  1
+uuuuuuuuuuuuuuu  I22     INTEGER  VARIABLE                   YES  1
+vvvvvvvvvvvvvvv  I23     INTEGER  VARIABLE                   YES  1
+wwwwwwwwwwwwwww  I24     INTEGER  VARIABLE                   YES  1
+xxxxxxxxxxxxxxx  I25     INTEGER  VARIABLE                   YES  1
+yyyyyyyyyyyyyyy  I26     INTEGER  VARIABLE                   YES  1
+zzzzzzzzzzzzzzz  I27     INTEGER  VARIABLE                   YES  1
+d                B0      BOOLEAN  VARIABLE                   YES  1

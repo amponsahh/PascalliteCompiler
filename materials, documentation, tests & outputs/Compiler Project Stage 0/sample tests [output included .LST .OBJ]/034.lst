@@ -1,0 +1,14 @@
+STAGE0:  YOUR NAME(S)       Mon Oct 15 09:33:49 2018
+
+LINE NO.              SOURCE STATEMENT
+
+    1|
+    2|program stage0no034;
+    3|  { whitespace can precede the program statement }
+    4|  { whitespace can follow end.}
+    5|    begin
+    6|    end.    
+    7|                
+    8|
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

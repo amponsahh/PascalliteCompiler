@@ -1,0 +1,43 @@
+STRT  NOP          stage1no148 - Your Names(s)
+      RDI I1       read(a)
+      RDI I2       read(b)
+      RDI I3       read(c)
+      LDA I1       
+      ISB I0       a = zero
+      AZJ L0       
+      LDA FALS     
+      UNJ L0  +1   
+L0    LDA TRUE     
+      STA B0       d := T0
+      LDA I2       
+      ISB I3       b < c
+      AMJ L1       
+      LDA FALS     
+      UNJ L1  +1   
+L1    LDA TRUE     
+      STA B1       e := T0
+      LDA I1       
+      ISB I2       a > b
+      AMJ L2       
+      AZJ L2       
+      LDA TRUE     
+      UNJ L2  +1   
+L2    LDA FALS     
+      STA B2       f := T0
+      PRI I1       write(a)
+      PRI I2       write(b)
+      PRI I3       write(c)
+      PRI B0       write(d)
+      PRI B1       write(e)
+      PRI B2       write(f)
+      HLT          
+I0    DEC 0000     zero
+I1    BSS 0001     a
+I2    BSS 0001     b
+I3    BSS 0001     c
+B0    BSS 0001     d
+B1    BSS 0001     e
+B2    BSS 0001     f
+FALS  DEC 0000     FALSE
+TRUE  DEC 0001     TRUE
+      END STRT     

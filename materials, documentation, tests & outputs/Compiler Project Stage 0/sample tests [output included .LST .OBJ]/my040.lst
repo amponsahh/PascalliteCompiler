@@ -1,0 +1,11 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 22:21:09 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no040
+    2|      {semicolon expected after program name}
+    3|
+    4|   var 
+Error: Line 4: semicolon expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

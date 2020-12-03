@@ -1,0 +1,519 @@
+STRT  NOP          stage2no237 - Your Names(s)
+      LDA I0       
+      ISB I1       var000 > var001
+      AMJ L0       
+      AZJ L0       
+      LDA TRUE     
+      UNJ L0  +1   
+L0    LDA FALS     
+      AZJ L1       if false jump to L1
+      LDA I0       
+      ISB I2       var000 > var002
+      AMJ L2       
+      AZJ L2       
+      LDA TRUE     
+      UNJ L2  +1   
+L2    LDA FALS     
+      AZJ L3       if false jump to L3
+      LDA I0       
+      ISB I3       var000 > var003
+      AMJ L4       
+      AZJ L4       
+      LDA TRUE     
+      UNJ L4  +1   
+L4    LDA FALS     
+      AZJ L5       if false jump to L5
+      LDA I0       
+      ISB I4       var000 > var004
+      AMJ L6       
+      AZJ L6       
+      LDA TRUE     
+      UNJ L6  +1   
+L6    LDA FALS     
+      AZJ L7       if false jump to L7
+      LDA I0       
+      ISB I5       var000 > var005
+      AMJ L8       
+      AZJ L8       
+      LDA TRUE     
+      UNJ L8  +1   
+L8    LDA FALS     
+      AZJ L9       if false jump to L9
+      LDA I0       
+      ISB I6       var000 > var006
+      AMJ L10      
+      AZJ L10      
+      LDA TRUE     
+      UNJ L10 +1   
+L10   LDA FALS     
+      AZJ L11      if false jump to L11
+      LDA I0       
+      ISB I7       var000 > var007
+      AMJ L12      
+      AZJ L12      
+      LDA TRUE     
+      UNJ L12 +1   
+L12   LDA FALS     
+      AZJ L13      if false jump to L13
+      LDA I0       
+      ISB I8       var000 > var008
+      AMJ L14      
+      AZJ L14      
+      LDA TRUE     
+      UNJ L14 +1   
+L14   LDA FALS     
+      AZJ L15      if false jump to L15
+      LDA I0       
+      ISB I9       var000 > var009
+      AMJ L16      
+      AZJ L16      
+      LDA TRUE     
+      UNJ L16 +1   
+L16   LDA FALS     
+      AZJ L17      if false jump to L17
+      LDA I0       
+      ISB I10      var000 > var010
+      AMJ L18      
+      AZJ L18      
+      LDA TRUE     
+      UNJ L18 +1   
+L18   LDA FALS     
+      AZJ L19      if false jump to L19
+      LDA I0       
+      ISB I11      var000 > var011
+      AMJ L20      
+      AZJ L20      
+      LDA TRUE     
+      UNJ L20 +1   
+L20   LDA FALS     
+      AZJ L21      if false jump to L21
+      LDA I0       
+      ISB I12      var000 > var012
+      AMJ L22      
+      AZJ L22      
+      LDA TRUE     
+      UNJ L22 +1   
+L22   LDA FALS     
+      AZJ L23      if false jump to L23
+      LDA I0       
+      ISB I13      var000 > var013
+      AMJ L24      
+      AZJ L24      
+      LDA TRUE     
+      UNJ L24 +1   
+L24   LDA FALS     
+      AZJ L25      if false jump to L25
+      LDA I0       
+      ISB I14      var000 > var014
+      AMJ L26      
+      AZJ L26      
+      LDA TRUE     
+      UNJ L26 +1   
+L26   LDA FALS     
+      AZJ L27      if false jump to L27
+      LDA I0       
+      ISB I15      var000 > var015
+      AMJ L28      
+      AZJ L28      
+      LDA TRUE     
+      UNJ L28 +1   
+L28   LDA FALS     
+      AZJ L29      if false jump to L29
+      LDA I0       
+      ISB I16      var000 > var016
+      AMJ L30      
+      AZJ L30      
+      LDA TRUE     
+      UNJ L30 +1   
+L30   LDA FALS     
+      AZJ L31      if false jump to L31
+      LDA I0       
+      ISB I17      var000 > var017
+      AMJ L32      
+      AZJ L32      
+      LDA TRUE     
+      UNJ L32 +1   
+L32   LDA FALS     
+      AZJ L33      if false jump to L33
+      LDA I0       
+      ISB I18      var000 > var018
+      AMJ L34      
+      AZJ L34      
+      LDA TRUE     
+      UNJ L34 +1   
+L34   LDA FALS     
+      AZJ L35      if false jump to L35
+      LDA I0       
+      ISB I19      var000 > var019
+      AMJ L36      
+      AZJ L36      
+      LDA TRUE     
+      UNJ L36 +1   
+L36   LDA FALS     
+      AZJ L37      if false jump to L37
+      LDA I0       
+      ISB I20      var000 > var020
+      AMJ L38      
+      AZJ L38      
+      LDA TRUE     
+      UNJ L38 +1   
+L38   LDA FALS     
+      AZJ L39      if false jump to L39
+      LDA I0       
+      ISB I21      var000 > var021
+      AMJ L40      
+      AZJ L40      
+      LDA TRUE     
+      UNJ L40 +1   
+L40   LDA FALS     
+      AZJ L41      if false jump to L41
+      LDA I0       
+      ISB I22      var000 > var022
+      AMJ L42      
+      AZJ L42      
+      LDA TRUE     
+      UNJ L42 +1   
+L42   LDA FALS     
+      AZJ L43      if false jump to L43
+      LDA I0       
+      ISB I23      var000 > var023
+      AMJ L44      
+      AZJ L44      
+      LDA TRUE     
+      UNJ L44 +1   
+L44   LDA FALS     
+      AZJ L45      if false jump to L45
+      LDA I0       
+      ISB I24      var000 > var024
+      AMJ L46      
+      AZJ L46      
+      LDA TRUE     
+      UNJ L46 +1   
+L46   LDA FALS     
+      AZJ L47      if false jump to L47
+      LDA I0       
+      ISB I25      var000 > var025
+      AMJ L48      
+      AZJ L48      
+      LDA TRUE     
+      UNJ L48 +1   
+L48   LDA FALS     
+      AZJ L49      if false jump to L49
+      LDA I0       
+      ISB I26      var000 > var026
+      AMJ L50      
+      AZJ L50      
+      LDA TRUE     
+      UNJ L50 +1   
+L50   LDA FALS     
+      AZJ L51      if false jump to L51
+      LDA I0       
+      ISB I27      var000 > var027
+      AMJ L52      
+      AZJ L52      
+      LDA TRUE     
+      UNJ L52 +1   
+L52   LDA FALS     
+      AZJ L53      if false jump to L53
+      LDA I0       
+      ISB I28      var000 > var028
+      AMJ L54      
+      AZJ L54      
+      LDA TRUE     
+      UNJ L54 +1   
+L54   LDA FALS     
+      AZJ L55      if false jump to L55
+      LDA I0       
+      ISB I29      var000 > var029
+      AMJ L56      
+      AZJ L56      
+      LDA TRUE     
+      UNJ L56 +1   
+L56   LDA FALS     
+      AZJ L57      if false jump to L57
+      LDA I0       
+      ISB I30      var000 > var030
+      AMJ L58      
+      AZJ L58      
+      LDA TRUE     
+      UNJ L58 +1   
+L58   LDA FALS     
+      AZJ L59      if false jump to L59
+      LDA I0       
+      ISB I31      var000 > var031
+      AMJ L60      
+      AZJ L60      
+      LDA TRUE     
+      UNJ L60 +1   
+L60   LDA FALS     
+      AZJ L61      if false jump to L61
+      LDA I0       
+      ISB I32      var000 > var032
+      AMJ L62      
+      AZJ L62      
+      LDA TRUE     
+      UNJ L62 +1   
+L62   LDA FALS     
+      AZJ L63      if false jump to L63
+      LDA I0       
+      ISB I33      var000 > var033
+      AMJ L64      
+      AZJ L64      
+      LDA TRUE     
+      UNJ L64 +1   
+L64   LDA FALS     
+      AZJ L65      if false jump to L65
+      LDA I0       
+      ISB I34      var000 > var034
+      AMJ L66      
+      AZJ L66      
+      LDA TRUE     
+      UNJ L66 +1   
+L66   LDA FALS     
+      AZJ L67      if false jump to L67
+      LDA I0       
+      ISB I35      var000 > var035
+      AMJ L68      
+      AZJ L68      
+      LDA TRUE     
+      UNJ L68 +1   
+L68   LDA FALS     
+      AZJ L69      if false jump to L69
+      LDA I0       
+      ISB I36      var000 > var036
+      AMJ L70      
+      AZJ L70      
+      LDA TRUE     
+      UNJ L70 +1   
+L70   LDA FALS     
+      AZJ L71      if false jump to L71
+      LDA I0       
+      ISB I37      var000 > var037
+      AMJ L72      
+      AZJ L72      
+      LDA TRUE     
+      UNJ L72 +1   
+L72   LDA FALS     
+      AZJ L73      if false jump to L73
+      LDA I0       
+      ISB I38      var000 > var038
+      AMJ L74      
+      AZJ L74      
+      LDA TRUE     
+      UNJ L74 +1   
+L74   LDA FALS     
+      AZJ L75      if false jump to L75
+      LDA I0       
+      ISB I39      var000 > var039
+      AMJ L76      
+      AZJ L76      
+      LDA TRUE     
+      UNJ L76 +1   
+L76   LDA FALS     
+      AZJ L77      if false jump to L77
+      LDA I0       
+      ISB I40      var000 > var040
+      AMJ L78      
+      AZJ L78      
+      LDA TRUE     
+      UNJ L78 +1   
+L78   LDA FALS     
+      AZJ L79      if false jump to L79
+      LDA I0       
+      ISB I41      var000 > var041
+      AMJ L80      
+      AZJ L80      
+      LDA TRUE     
+      UNJ L80 +1   
+L80   LDA FALS     
+      AZJ L81      if false jump to L81
+      LDA I0       
+      ISB I42      var000 > var042
+      AMJ L82      
+      AZJ L82      
+      LDA TRUE     
+      UNJ L82 +1   
+L82   LDA FALS     
+      AZJ L83      if false jump to L83
+      LDA I0       
+      ISB I43      var000 > var043
+      AMJ L84      
+      AZJ L84      
+      LDA TRUE     
+      UNJ L84 +1   
+L84   LDA FALS     
+      AZJ L85      if false jump to L85
+      LDA I0       
+      ISB I44      var000 > var044
+      AMJ L86      
+      AZJ L86      
+      LDA TRUE     
+      UNJ L86 +1   
+L86   LDA FALS     
+      AZJ L87      if false jump to L87
+      LDA I0       
+      ISB I45      var000 > var045
+      AMJ L88      
+      AZJ L88      
+      LDA TRUE     
+      UNJ L88 +1   
+L88   LDA FALS     
+      AZJ L89      if false jump to L89
+      LDA I0       
+      ISB I46      var000 > var046
+      AMJ L90      
+      AZJ L90      
+      LDA TRUE     
+      UNJ L90 +1   
+L90   LDA FALS     
+      AZJ L91      if false jump to L91
+      LDA I0       
+      ISB I47      var000 > var047
+      AMJ L92      
+      AZJ L92      
+      LDA TRUE     
+      UNJ L92 +1   
+L92   LDA FALS     
+      AZJ L93      if false jump to L93
+      LDA I0       
+      ISB I48      var000 > var048
+      AMJ L94      
+      AZJ L94      
+      LDA TRUE     
+      UNJ L94 +1   
+L94   LDA FALS     
+      AZJ L95      if false jump to L95
+      LDA I0       
+      ISB I49      var000 > var049
+      AMJ L96      
+      AZJ L96      
+      LDA TRUE     
+      UNJ L96 +1   
+L96   LDA FALS     
+      AZJ L97      if false jump to L97
+      LDA I0       
+      ISB I50      var000 > var050
+      AMJ L98      
+      AZJ L98      
+      LDA TRUE     
+      UNJ L98 +1   
+L98   LDA FALS     
+      AZJ L99      if false jump to L99
+      LDA I0       
+      ISB I51      var000 > var051
+      AMJ L100     
+      AZJ L100     
+      LDA TRUE     
+      UNJ L100+1   
+L100  LDA FALS     
+      AZJ L101     if false jump to L101
+      LDA I0       
+      STA I52      large := var000
+L101  NOP          end if
+L99   NOP          end if
+L97   NOP          end if
+L95   NOP          end if
+L93   NOP          end if
+L91   NOP          end if
+L89   NOP          end if
+L87   NOP          end if
+L85   NOP          end if
+L83   NOP          end if
+L81   NOP          end if
+L79   NOP          end if
+L77   NOP          end if
+L75   NOP          end if
+L73   NOP          end if
+L71   NOP          end if
+L69   NOP          end if
+L67   NOP          end if
+L65   NOP          end if
+L63   NOP          end if
+L61   NOP          end if
+L59   NOP          end if
+L57   NOP          end if
+L55   NOP          end if
+L53   NOP          end if
+L51   NOP          end if
+L49   NOP          end if
+L47   NOP          end if
+L45   NOP          end if
+L43   NOP          end if
+L41   NOP          end if
+L39   NOP          end if
+L37   NOP          end if
+L35   NOP          end if
+L33   NOP          end if
+L31   NOP          end if
+L29   NOP          end if
+L27   NOP          end if
+L25   NOP          end if
+L23   NOP          end if
+L21   NOP          end if
+L19   NOP          end if
+L17   NOP          end if
+L15   NOP          end if
+L13   NOP          end if
+L11   NOP          end if
+L9    NOP          end if
+L7    NOP          end if
+L5    NOP          end if
+L3    NOP          end if
+L1    NOP          end if
+      HLT          
+I0    BSS 0001     var000
+I1    BSS 0001     var001
+I2    BSS 0001     var002
+I3    BSS 0001     var003
+I4    BSS 0001     var004
+I5    BSS 0001     var005
+I6    BSS 0001     var006
+I7    BSS 0001     var007
+I8    BSS 0001     var008
+I9    BSS 0001     var009
+I10   BSS 0001     var010
+I11   BSS 0001     var011
+I12   BSS 0001     var012
+I13   BSS 0001     var013
+I14   BSS 0001     var014
+I15   BSS 0001     var015
+I16   BSS 0001     var016
+I17   BSS 0001     var017
+I18   BSS 0001     var018
+I19   BSS 0001     var019
+I20   BSS 0001     var020
+I21   BSS 0001     var021
+I22   BSS 0001     var022
+I23   BSS 0001     var023
+I24   BSS 0001     var024
+I25   BSS 0001     var025
+I26   BSS 0001     var026
+I27   BSS 0001     var027
+I28   BSS 0001     var028
+I29   BSS 0001     var029
+I30   BSS 0001     var030
+I31   BSS 0001     var031
+I32   BSS 0001     var032
+I33   BSS 0001     var033
+I34   BSS 0001     var034
+I35   BSS 0001     var035
+I36   BSS 0001     var036
+I37   BSS 0001     var037
+I38   BSS 0001     var038
+I39   BSS 0001     var039
+I40   BSS 0001     var040
+I41   BSS 0001     var041
+I42   BSS 0001     var042
+I43   BSS 0001     var043
+I44   BSS 0001     var044
+I45   BSS 0001     var045
+I46   BSS 0001     var046
+I47   BSS 0001     var047
+I48   BSS 0001     var048
+I49   BSS 0001     var049
+I50   BSS 0001     var050
+I51   BSS 0001     var051
+I52   BSS 0001     large
+TRUE  DEC 0001     TRUE
+FALS  DEC 0000     FALSE
+      END STRT     

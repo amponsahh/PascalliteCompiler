@@ -1,0 +1,75 @@
+STAGE2:  YOUR NAME(S)       Thu Nov 29 16:35:22 2018
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage2no237;
+    2|  var
+    3|var000,var001,var002,var003,var004,var005,var006,var007,var008,var009,
+    4|var010,var011,var012,var013,var014,var015,var016,var017,var018,var019,
+    5|var020,var021,var022,var023,var024,var025,var026,var027,var028,var029,
+    6|var030,var031,var032,var033,var034,var035,var036,var037,var038,var039,
+    7|var040,var041,var042,var043,var044,var045,var046,var047,var048,var049,
+    8|var050,var051,large
+    9|: integer;
+   10|begin
+   11|  if var000 > var001 then begin
+   12|  if var000 > var002 then begin
+   13|  if var000 > var003 then begin
+   14|  if var000 > var004 then begin
+   15|  if var000 > var005 then begin
+   16|  if var000 > var006 then begin
+   17|  if var000 > var007 then begin
+   18|  if var000 > var008 then begin
+   19|  if var000 > var009 then begin
+   20|  if var000 > var010 then begin
+   21|  if var000 > var011 then begin
+   22|  if var000 > var012 then begin
+   23|  if var000 > var013 then begin
+   24|  if var000 > var014 then begin
+   25|  if var000 > var015 then begin
+   26|  if var000 > var016 then begin
+   27|  if var000 > var017 then begin
+   28|  if var000 > var018 then begin
+   29|  if var000 > var019 then begin
+   30|  if var000 > var020 then begin
+   31|  if var000 > var021 then begin
+   32|  if var000 > var022 then begin
+   33|  if var000 > var023 then begin
+   34|  if var000 > var024 then begin
+   35|  if var000 > var025 then begin
+   36|  if var000 > var026 then begin
+   37|  if var000 > var027 then begin
+   38|  if var000 > var028 then begin
+   39|  if var000 > var029 then begin
+   40|  if var000 > var030 then begin
+   41|  if var000 > var031 then begin
+   42|  if var000 > var032 then begin
+   43|  if var000 > var033 then begin
+   44|  if var000 > var034 then begin
+   45|  if var000 > var035 then begin
+   46|  if var000 > var036 then begin
+   47|  if var000 > var037 then begin
+   48|  if var000 > var038 then begin
+   49|  if var000 > var039 then begin
+   50|  if var000 > var040 then begin
+   51|  if var000 > var041 then begin
+   52|  if var000 > var042 then begin
+   53|  if var000 > var043 then begin
+   54|  if var000 > var044 then begin
+   55|  if var000 > var045 then begin
+   56|  if var000 > var046 then begin
+   57|  if var000 > var047 then begin
+   58|  if var000 > var048 then begin
+   59|  if var000 > var049 then begin
+   60|  if var000 > var050 then begin
+   61|  if var000 > var051 then begin
+   62|    large := var000;
+   63|  end; end; end; end; end; end; end; end; end; end;
+   64|  end; end; end; end; end; end; end; end; end; end;
+   65|  end; end; end; end; end; end; end; end; end; end;
+   66|  end; end; end; end; end; end; end; end; end; end;
+   67|  end; end; end; end; end; end; end; end; end; end;
+   68|  end;
+   69|end  .
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

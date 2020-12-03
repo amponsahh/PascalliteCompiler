@@ -1,0 +1,12 @@
+STAGE0:  YOUR NAME(S)       Mon Oct 15 09:33:49 2018
+
+Symbol Table
+
+stage0no029      P0    PROG_NAME  CONSTANT      stage0no029   NO  0
+yes              B0      BOOLEAN  CONSTANT                1  YES  1
+no               B1      BOOLEAN  CONSTANT                0  YES  1
+small            I0      INTEGER  CONSTANT                0  YES  1
+smalleryet       I1      INTEGER  CONSTANT               -1  YES  1
+big              I2      INTEGER  CONSTANT                1  YES  1
+bigger_yet       I3      INTEGER  CONSTANT                2  YES  1
+some             I4      INTEGER  VARIABLE                   YES  1

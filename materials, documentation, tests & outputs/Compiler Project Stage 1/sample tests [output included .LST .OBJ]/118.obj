@@ -1,0 +1,14 @@
+STRT  NOP          stage1no118 - Your Names(s)
+      LDA I0       
+      ISB I1       w = z
+      AZJ L0       
+      LDA FALS     
+      UNJ L0  +1   
+L0    LDA TRUE     
+      STA T0       deassign AReg
+      LDA B0       
+      ISB B1       a <> b
+      AZJ L1  +1   
+L1    LDA TRUE     
+      IMU T0       T0 and T1
+      STA B2       c := T0

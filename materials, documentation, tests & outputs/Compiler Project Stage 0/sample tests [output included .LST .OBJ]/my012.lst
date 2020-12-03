@@ -1,0 +1,12 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 20:50:59 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no012;
+    2|  {no embedded blanks in a token}
+    3|
+    4|   const car = 2;
+    5|         po or 
+Error: Line 5: "=" expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

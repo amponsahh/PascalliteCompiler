@@ -1,0 +1,14 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 20:28:37 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no006;
+    2|      {illustrate erroneous use of Pascallite features.}
+    3|      {no lists of constants allowed}
+    4| 
+    5|    const help = 32;
+    6|
+    7|       s,t
+Error: Line 7: "=" expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

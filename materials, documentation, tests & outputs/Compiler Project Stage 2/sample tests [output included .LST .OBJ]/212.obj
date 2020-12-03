@@ -1,0 +1,10 @@
+STRT  NOP          stage2no212 - Your Names(s)
+      LDA B0       
+      AZJ L0       if false jump to L0
+      LDA I3       
+      STA I2       z := 0
+      UNJ L1       jump to end if
+L0    NOP          else
+      LDA I4       
+      STA I2       z := -3
+L1    NOP          end if

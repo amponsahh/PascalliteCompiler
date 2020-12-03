@@ -1,0 +1,9 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 21:14:55 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program ;
+
+Error: Line 1: program name expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

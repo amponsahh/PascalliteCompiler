@@ -1,0 +1,35 @@
+STRT  NOP          stage1no135 - Your Names(s)
+      LDA B2       
+      STA B0       a := true
+      AZJ L0       not a
+      LDA FALS     
+      UNJ L0  +1   
+L0    LDA TRUE     
+      STA B1       b := T0
+      PRI B0       write(a)
+      PRI B1       write(b)
+      LDA FALS     
+      STA B1       b := FALSE
+      PRI B1       write(b)
+      LDA B2       
+      STA B1       b := true
+      PRI B1       write(b)
+      ISB B0       a = b
+      AZJ L1       
+      LDA FALS     
+      UNJ L1  +1   
+L1    LDA TRUE     
+      AZJ L2       not T0
+      LDA FALS     
+      UNJ L2  +1   
+L2    LDA TRUE     
+      STA B1       b := T0
+      PRI B0       write(a)
+      PRI B1       write(b)
+      HLT          
+B0    BSS 0001     a
+B1    BSS 0001     b
+B2    DEC 0001     true
+FALS  DEC 0000     FALSE
+TRUE  DEC 0001     TRUE
+      END STRT     

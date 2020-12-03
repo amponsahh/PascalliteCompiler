@@ -1,0 +1,12 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 20:55:01 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage0no014;
+    2|   {   no embedded begin-end statement allowed}
+    3|
+    4|   const car = 2;
+    5|   begin begin 
+Error: Line 5: keyword "end" expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED

@@ -1,0 +1,27 @@
+STRT  NOP          stage1no134 - Your Names(s)
+      RDI I0       read(a)
+      RDI I1       read(b)
+      LDA I0       
+      IAD I1       a + b
+      STA I2       r := T0
+      PRI I0       write(a)
+      PRI I1       write(b)
+      PRI I2       write(r)
+      LDA I0       
+      IAD I1       a + b
+      STA I2       r := T0
+      PRI I0       write(a)
+      PRI I1       write(b)
+      PRI I2       write(r)
+      LDA I0       
+      IAD I3       a + 5
+      STA I2       r := T0
+      PRI I0       write(a)
+      PRI I1       write(b)
+      PRI I2       write(r)
+      HLT          
+I0    BSS 0001     a
+I1    BSS 0001     b
+I2    BSS 0001     r
+I3    DEC 0005     5
+      END STRT     

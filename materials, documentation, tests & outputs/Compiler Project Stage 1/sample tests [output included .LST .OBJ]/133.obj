@@ -1,0 +1,23 @@
+STRT  NOP          stage1no133 - Your Names(s)
+      RDI I0       read(a)
+      RDI I1       read(b)
+      LDA I3       
+      IMU I0       2 * a
+      STA T0       deassign AReg
+      LDA I1       
+      IDV T0       b div T0
+      STA T0       deassign AReg
+      LDA ZERO     
+      ISB T0       -T0
+      STA I2       r := T0
+      PRI I0       write(a)
+      PRI I1       write(b)
+      PRI I2       write(r)
+      HLT          
+I0    BSS 0001     a
+I1    BSS 0001     b
+I2    BSS 0001     r
+I3    DEC 0002     2
+T0    BSS 0001     T0
+ZERO  DEC 0000     ZERO
+      END STRT     

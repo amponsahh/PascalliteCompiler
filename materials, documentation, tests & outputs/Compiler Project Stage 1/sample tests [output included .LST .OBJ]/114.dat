@@ -1,0 +1,9 @@
+program stage1no114;
+        {demonstrate incorrect usage of Pascal assignment statements.}
+  const  zero = 0;
+         five = 5;
+  var    a,b,c,z,  d,e: integer;
+  begin
+    d := five * a ;
+    z:=b + + +5 mod a;   {too many +'s}
+  end .

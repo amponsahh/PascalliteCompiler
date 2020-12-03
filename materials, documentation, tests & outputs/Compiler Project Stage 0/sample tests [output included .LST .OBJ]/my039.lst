@@ -1,0 +1,17 @@
+STAGE0:  Amponsah Nana, McRae Angela       Tue Nov  5 22:18:24 2019
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program    stage0no039;   {here is a comment}
+    2|     const yes=true;no=false;
+    3|           small=0;smalleryet=-1;
+    4|           big = 1;  biggeryet = 2;  large = biggeryet;
+    5|		   maybe = not true;
+    6|     var   some,many:integer;
+    7|           right, wrong : boolean;
+    8|     begin
+    9|     end
+
+Error: Line 9: "." expected
+
+COMPILATION TERMINATED      1 ERRORS ENCOUNTERED
