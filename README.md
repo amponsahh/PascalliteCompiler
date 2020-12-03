@@ -1,4 +1,11 @@
-# PascalliteCompiler
+# Pascallite Compiler
 
+Pascallite Compiler is a compiler in C++ that parses Pascallite code and returns Representative Auxiliary Machine Model (RAMM) assembly code object file and accompanying listing file.
 
-compiler in C++ that accepts Pascallite code and outputs Representative Auxiliary Machine Model (RAMM) assembly code object file and accompanying listing file
+Before I continue, we should talk a little more about RAMM; It's a simulated environment that is used as a teaching tool in introductory environment science courses at [Angelo State University](cs.angelo.edu). RAMM is used to introduce the concepts of the instruction cycle, program counter, instruction register, arithmetic registers, memory, stored programs, sequential processing, branching, loading, assembly, source code, and object code to Angelo State computer science students. In some advanced courses, it is used to demonstrate the various properties and techniques of programming a fixed-word-length environment. If you'd like to know more about the Representative Auxiliary Machine Model (RAMM), I urge you to please visit its [official page](http://www.cs.angelo.edu/ramm/) for further enquiries. 
+
+Right, about this compiler: it's a group project between a fellow classmate and I for our Algorithmic Languages and Compilers class. We were given pointers and instructions (which can be found in the documentation folder of each respective stage) and left to our own devices to come up with a compiler that passed sample tests. To make it easier on ourselves, our professor split the design and construction of the compiler into three stages with each stage building on top of the prior stage as we progressed. This repository is the amalgamation of all three stages with accompanying object files, listing files, sample tests and source code. To whomever happens to stumble into this and is currently in that class, I'd like to formally say plagiarism is bad and is a punishable offense with quite serious repercussions, I do not condone it but I also choose the Unlicense License for a reason; use your head and consult with your professor where needed. To everyone else, I hope you like it and please do not hesitate to submit a pull request if something  doesn't make sense or you'd like to reach out!
+
+To compile, enter: ```g++: g++ -o stage2 -g -Wall -std=c++11 stage2.cpp```
+To run, enter: ```./stage2 <data file input> <listing file output> <object file output>```
+or use the included makefile for each stage.
